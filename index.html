@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nash. V5.2 — Your guide to passing</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="brand-mini"><h1>Nash.</h1><p>Your guide to passing.</p></div>
+      <nav class="side-nav">
+        <button data-route="home">⌂ Home</button><button data-route="dashboard">▥ Dashboard</button><button data-route="paths">▤ Paths</button>
+        <button data-route="practice">◎ Practice</button><button data-route="tutor">✦ Tutor</button><button data-route="flashcards">▣ Flashcards</button>
+        <button data-route="mockexam">✍ Mock Exams</button><button data-route="conversation">☷ Conversation</button><button data-route="coach">◈ Study Coach</button>
+        <button data-route="translator">⇄ Professor Translator</button><button data-route="upload">⇧ Upload/Paste</button><button data-route="memory">◉ Memory</button><button data-route="feedback">✎ Feedback</button>
+      </nav>
+      <div class="mini-card"><b>V5.2</b><p>Flashcards, memory, mock exams, voice, upload/paste, and subject-aware AI.</p><button class="primary small" onclick="setRoute('tutor')">Ask Nash</button></div>
+    </aside>
+    <div class="main-shell"><header class="topbar"><div><h1>Nash.</h1><p class="tagline">Your guide to passing.</p></div><button id="resetBtn" class="ghost-btn">Reset</button></header><main id="app"></main></div>
+    <nav class="bottom-nav"><button data-route="home">Home</button><button data-route="dashboard">Dash</button><button data-route="practice">Practice</button><button data-route="tutor">Tutor</button><button data-route="coach">Coach</button><button data-route="paths">Paths</button></nav>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
